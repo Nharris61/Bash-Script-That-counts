@@ -1,7 +1,11 @@
 #!/bin/bash 
 
-# count-to-50.sh - A simple counting script 
+start=1 
 
-for i in {1..50}; do 
-  echo $i 
+end=50 
+
+for (( number=$start; number<=$end; number++ )) 
+do 
+
+  echo $number 
 done
